@@ -1,7 +1,6 @@
 #pragma once
 
-
-
+//Creation of Clock Class
 class clock {
 
 private: 
@@ -12,11 +11,12 @@ private:
 
 public:
 
-
+	//Constructor
 	clock() {
 
 	}
 
+	//Constructor
 	clock(int h, int m, int s) {
 
 		h = hr;
@@ -25,6 +25,7 @@ public:
 
 	}
 
+	//Mutators
 	void setTime(int h, int m, int s) {
 
 		hr = h;
@@ -39,6 +40,7 @@ public:
 		return sec;
 	}
 
+	//Print Method Call
 	void printTime();
 
 };

@@ -5,7 +5,7 @@ using namespace std;
 
 int newtime;
 
-
+//Method to aajust Time Based on Time Zone
 int extClock::timeZone(int timeZone, int time) {
 
 
